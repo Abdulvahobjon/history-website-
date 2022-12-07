@@ -31,15 +31,13 @@ function App() {
 
         {/* <!-- Button Container --> */}
         <div className="button-container">
-          <Button >
+          <Button href="#" version="lightBlue" >
              Download for iOS
           </Button>
-          <a
-            href="#"
-            className="p-4 px-8 rounded-full shadow-lg bg-lightBlue duration-200 hover:opacity-80"
-          >
-            Download for Mac
-          </a>
+         
+          <Button href="#" version="strongCyan">
+           Download for Mac
+          </Button>
         </div>
       </div>
     </section>
@@ -150,15 +148,13 @@ function App() {
 
         {/* <!-- Button Container --> */}
         <div className="button-container">
-        <Button >
+        <Button href="#" version="lightBlue" >
              Download for iOS
           </Button>
-          <a
-            href="#"
-            className="p-4 px-8 rounded-full shadow-lg bg-lightBlue duration-200 hover:opacity-80"
-          >
-            Download for Mac
-          </a>
+         
+          <Button href="#" version="strongCyan">
+           Download for Mac
+          </Button>
         </div>
       </div>
     </section>
